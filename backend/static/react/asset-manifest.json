@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/react/css/main.6a8827b3.css",
+    "main.js": "/static/react/js/main.448e0b00.js",
+    "media/nails2.jpg": "/static/react/media/nails2.0c7077de0c791b14ceb1.jpg",
+    "media/nails3.jpg": "/static/react/media/nails3.04432f095f4f39eb10f6.jpg",
+    "media/nails1.jpg": "/static/react/media/nails1.3346dff6e7684072b1cc.jpg",
+    "../../templates/index.html": "/static/react/../../templates/index.html",
+    "main.6a8827b3.css.map": "/static/react/css/main.6a8827b3.css.map",
+    "main.448e0b00.js.map": "/static/react/js/main.448e0b00.js.map"
+  },
+  "entrypoints": [
+    "css/main.6a8827b3.css",
+    "js/main.448e0b00.js"
+  ]
+}
