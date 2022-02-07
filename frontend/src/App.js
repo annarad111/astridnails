@@ -1,16 +1,12 @@
-import React from 'react';
-import './App.css';
-import Navbar from '../src/components/Navbar/navbar.js';
-import Home from './pages'
-import About from './pages/about'
-import Contact from './pages/contact'
+import React from "react";
+import "./App.css";
+import Navbar from "../src/components/Navbar/navbar.js";
+import Home from "./pages";
+import About from "./pages/about";
+import Contact from "./pages/contact";
 import Gallery from "./pages/signup";
-import Services from './pages/services';
-import AliceCarousel from "react-alice-carousel";
-import nails1 from './images/nails1.jpg';
-import nails2 from './images/nails2.jpg';
-import nails3 from './images/nails3.jpg';
-import "react-alice-carousel/lib/alice-carousel.css";
+import Services from "./pages/services";
+import Footer from "./components/Footer/Footer.js";
 import {
   BrowserRouter as Router,
   Routes,
@@ -32,6 +28,7 @@ function App() {
           <Route path="/services" element={<Services />} />
         </Routes>
       </Router>
+      <Footer />
     </>
   );
 }

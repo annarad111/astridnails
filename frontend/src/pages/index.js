@@ -4,7 +4,6 @@ import Slider from '../components/Slider/Slider.js'
 
 export const Home = () => {
     return (<div>
-      <h1 className='text'>Home</h1>
       <Slider />
   </div>);
 };

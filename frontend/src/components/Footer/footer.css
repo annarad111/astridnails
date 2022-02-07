@@ -1,0 +1,17 @@
+.box {
+  background: black;
+  bottom: 0;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+@media only screen and (max-width: 1000px) {
+  .box {
+    padding: 70px 30px;
+  }
+}
+
+.footer-text{
+  font-size: 18px;
+  color: white;
+}
