@@ -1,0 +1,117 @@
+.logo{
+    font-size: 2.3em;
+}
+@media screen and (max-width: 768px) {
+  .logo{display: flex;
+    align-content: stretch;
+    justify-content: space-evenly;
+    align-items: baseline;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    font-size:1em;
+  }
+}
+.call-btn{
+    border-radius: 20px;
+  background: 	#8fbc8f;
+  padding: 10px 22px;
+  color: #fff;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  text-decoration: none;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.call-btn:hover {
+    transition: all 0.2s ease-in-out;
+    background: #fff;
+    color: #000000;
+  }  
+
+
+.nav{
+  height: 130px;
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: center;
+  padding: 0.5rem calc((100vw - 1000px) / 2);
+  z-index: 10;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: baseline;
+  flex-direction: column-reverse;
+  font-family: "Ubuntu", sans-serif;
+  /* Third Nav */
+  /* justify-content: flex-start; */
+}
+
+
+.nav-link{
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  padding: 10px 15px;
+  color: #000000;
+  border-radius: 20px;
+  font-size: large;
+  font-family: "Ubuntu", sans-serif;
+  cursor: pointer;
+}
+
+.nav-link:hover {
+  transition: all 0.2s ease-in-out;
+  background: #8fbc8f;
+  color: #fff;
+}
+
+.nav-menu{
+  display: flex;
+  align-items: center;
+  margin-right: -24px;
+  font-family: "Ubuntu", sans-serif;
+}
+
+
+@media screen and (max-width: 768px) {
+  .nav{
+    margin-top: 30px;
+    height: fit-content;
+    display: grid;
+    -webkit-box-pack: center;
+    padding: 0.5rem calc((100vw - 1000px) / 2);
+    z-index: 10;
+    flex-flow: column-reverse wrap;
+    -webkit-box-align: end;
+    place-items: end center;
+    font-family: Ubuntu, sans-serif;
+    overflow-x: auto;
+    place-content: stretch space-evenly;
+    overflow-y: hidden;
+  }
+
+  .nav-menu{
+    display: block;
+    -webkit-box-align: center;
+    align-items: center;
+    margin-right: -24px;
+    font-family: Ubuntu, sans-serif;
+    /* height: fit-content; */
+    justify-content: center;
+  }
+
+  .nav-link{
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    text-decoration: none;
+    padding: 10px 15px;
+    color: rgb(0, 0, 0);
+    border-radius: 20px;
+    font-size: large;
+    font-family: Ubuntu, sans-serif;
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+}

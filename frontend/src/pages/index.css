@@ -10,3 +10,153 @@
     margin-block-start: 8%;
     font-family: 'Ubuntu', sans-serif;
 }
+
+.afterslider{
+    display: flex;
+    background-color: black;
+    height: 30%;
+    align-content: flex-end;
+    justify-content: center;
+
+}
+
+.titleafter{
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+@media only screen and (max-width: 600px){
+  .titleafter{
+    font-size: 1.2em;
+    display: flex;
+    align-content: center;
+    align-items: center;
+  }
+}
+
+
+  .link{
+    background: aliceblue;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    padding: 10px 15px;
+    color: #000000;
+    border-radius: 20px;
+    height: 30px;
+    font-size: large;
+    font-family: "Ubuntu", sans-serif;
+    cursor: pointer;
+    margin-left: 30px;
+    margin-top: 13px;
+  }
+
+  .link:hover {
+    transition: all 0.2s ease-in-out;
+    background: #8fbc8f;
+    color: #fff;
+  }
+.link:active{
+    background: #fff;
+    color:#0073e6;
+}
+@media only screen and (max-width: 600px){
+.link{
+  font-size: 1em;
+  margin: 15px;}
+.link:hover {
+    transition: all 0.2s ease-in-out;
+    background: #8fbc8f;
+    color: #fff;
+  }
+.link:active{
+    background: #fff;
+    color:#0073e6;
+}
+}
+
+.about {
+  display: flex;
+}
+@media only screen and (max-width: 600px){
+.about{
+  font-size: x-small;
+  font-size: x-small;
+  display: block;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: stretch;
+  align-items: center;
+}
+
+}
+
+.img{
+  height: 400px;
+  border-radius: 700px;
+  margin-left: 200px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  animation: image 3s 1;
+}
+@media only screen and (max-width: 600px){
+  .img{
+    animation: image 3s 1;
+    border-radius: 700px;
+    height: 300px;
+    margin-bottom: 50px;
+    margin-left: 65px;
+    margin-top: 50px;
+  }
+
+  @keyframes image {
+    0%{
+      color:#000000;
+      margin-left: -65px;
+    }
+}
+}
+
+
+.about-text{
+  display: flex;
+  font-family: 'Ubuntu', sans-serif;
+  flex-direction: column;
+  justify-content: center;
+  margin-left:300px;
+  font-size: 1.5em;
+}
+@media only screen and (max-width: 600px){
+  .about-text{  
+    display: flex;
+    flex-direction: column;
+    font-family: Ubuntu,sans-serif;
+    font-size: 1.5em;
+    justify-content: center;
+    margin: 30px;
+    align-items: center;
+    align-content: center;
+    flex-wrap: nowrap;}
+  }
+
+.text-animation{
+  animation: text 3s 1;
+
+}
+
+@keyframes text{
+  0%{
+    color:#000000;
+    margin-left: 200px;
+  }
+}
+
+@keyframes image {
+  0%{
+    color:#000000;
+    margin-left: -200px;
+  }
+}

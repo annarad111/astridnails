@@ -34,7 +34,7 @@ export const FooterLink = styled.a`
   text-decoration: none;
 
   &:hover {
-    color: pink;
+    color: beige;
     transition: 200ms ease-in;
   }
 `;

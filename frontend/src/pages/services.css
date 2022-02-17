@@ -1,6 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Sora:wght@300&family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Poppins:wght@100;200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 .text{
+    /* color: #000;
+    display: flex;
+    font-family: Ubuntu,sans-serif;
+    justify-content: center;
+    margin: 0;
+    margin-block-start: 8%;
+    padding: 50px;
+    white-space: nowrap;
+    font-size: 3em; */
     color: rgb(0, 0, 0);
     white-space: nowrap;
     margin:0;
@@ -9,4 +21,108 @@
     justify-content: center;
     margin-block-start: 8%;
     font-family: 'Ubuntu', sans-serif;
+    margin-bottom: 100px;
+    background: linen;
+    padding: 50px;
+    font-size: 3em;
+}
+
+.card{
+    background-image: url("../images/services2.jpg");
+    margin: auto;
+    padding: 100px;
+    z-index: -10;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.interior{
+    background-color: #f1eae696;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 100px;
+    display: flex;
+    width: 40%;
+    align-content: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title{
+    font-family: 'Dancing Script', cursive;
+    display: flex;
+    justify-content: center;
+    font-size: 100px;
+    margin-top: 0%;
+    color: black;
+
+}
+
+p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2em;
+}
+
+.services-btn{
+    background: aliceblue;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    padding: 10px 15px;
+    color: #000000;
+    border-radius: 20px;
+    height: 30px;
+    font-size: large;
+    font-family: "Ubuntu", sans-serif;
+    cursor: pointer;
+    margin-left: 30px;
+    margin-top: 13px;
+}
+
+.services-btn:hover{
+    transition: all 0.2s ease-in-out;
+    background: #8fbc8f;
+    color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+    .card{
+        background-image: url("../images/services2.jpg");
+        margin: auto;
+        z-index: -10;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    p{
+        font-family: Montserrat,sans-serif;
+        font-size: 2em;
+        width: 250px;
+    }
+    .title{
+        color: #000;
+        display: flex;
+        font-family: Dancing Script,cursive;
+        font-size: 90px;
+        justify-content: center;
+        margin: 0;
+        padding-top: 45px;
+    }
+    .services-btn{
+        align-items: center;
+    background: #f0f8ff;
+    border-radius: 20px;
+    color: #000;
+    cursor: pointer;
+    display: flex;
+    font-family: Ubuntu,sans-serif;
+    font-size: 1.5em;
+    height: 50px;
+    width: 200px;
+    margin-top: 13px;
+    padding: 10px 15px;
+    text-decoration: none;
+    justify-content: center;
+    }
 }

@@ -10,3 +10,30 @@
     margin-block-start: 8%;
     font-family: 'Ubuntu', sans-serif;
 }
+
+.images{
+    display: block;
+    margin-left: 100px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.gallery-img{
+    border-radius: 500px;
+     margin:20px;
+}
+
+@media screen and (max-width: 768px) {
+    .gallery-img{
+        border-radius: 500px;
+        margin-right: 100px;
+        display: flex;
+    }
+    .images{
+        display: block;
+        margin-bottom: 100px;
+        margin-left: 25px;
+        margin-top: 100px;
+        width: calc(100% - 50px);
+    }
+}

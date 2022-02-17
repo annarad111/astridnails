@@ -15,12 +15,12 @@ import {
   Outlet,
 } from "react-router-dom";
 
-function App() {
+function App()  {
   return (
     <>
       <Router>
         <Navbar />
-        <Routes>
+        <Routes> 
           <Route path="/" exact element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
@@ -28,6 +28,14 @@ function App() {
           <Route path="/services" element={<Services />} />
         </Routes>
       </Router>
+      <a
+        href="https://wa.me/+40735131140"
+        class="whatsapp_float"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <i class="fa fa-whatsapp whatsapp-icon"></i>
+      </a>
       <Footer />
     </>
   );

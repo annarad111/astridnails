@@ -1,18 +1,30 @@
 {
   "files": {
-    "main.css": "/static/react/css/main.c9ade73a.css",
-    "main.js": "/static/react/js/main.b908e6af.js",
+    "main.css": "/static/react/css/main.467adf36.css",
+    "main.js": "/static/react/js/main.e6d674da.js",
     "media/nails7.jpg": "/static/react/media/nails7.3134133f155765d1a85d.jpg",
     "media/nails8.jpg": "/static/react/media/nails8.770087413131c1871c37.jpg",
     "media/nails9.jpg": "/static/react/media/nails9.382c524a5fbf75b3b674.jpg",
+    "media/services2.jpg": "/static/react/media/services2.011e30e09ab715bc4225.jpg",
+    "media/video1.mp4": "/static/react/media/video1.d3766787f3e66eb83fe5.mp4",
     "media/nails6.jpg": "/static/react/media/nails6.628763351c53cc496825.jpg",
     "media/nails10.jpg": "/static/react/media/nails10.910e86a1509fd4cbea68.jpg",
+    "media/nailsa1.jpeg": "/static/react/media/nailsa1.5fac378b69b14c8a8c73.jpeg",
+    "media/nailsa2.jpeg": "/static/react/media/nailsa2.4b0f6189a83a2756339a.jpeg",
+    "media/nailsa5.jpeg": "/static/react/media/nailsa5.abd83b9d06dbdc475007.jpeg",
+    "media/nailsa3.jpeg": "/static/react/media/nailsa3.511819f7d06526fa9ff4.jpeg",
+    "media/nails2.jpg": "/static/react/media/nails2.0c7077de0c791b14ceb1.jpg",
+    "media/nailsa4.jpeg": "/static/react/media/nailsa4.56c8aa2142f4548c370e.jpeg",
+    "media/nails3.jpg": "/static/react/media/nails3.04432f095f4f39eb10f6.jpg",
+    "media/nails5.jpg": "/static/react/media/nails5.1f7ec9c42ce964713082.jpg",
+    "media/nails1.jpg": "/static/react/media/nails1.3346dff6e7684072b1cc.jpg",
+    "media/nails4.jpg": "/static/react/media/nails4.ec58f3415a669db7941f.jpg",
     "../../templates/index.html": "/static/react/../../templates/index.html",
-    "main.c9ade73a.css.map": "/static/react/css/main.c9ade73a.css.map",
-    "main.b908e6af.js.map": "/static/react/js/main.b908e6af.js.map"
+    "main.467adf36.css.map": "/static/react/css/main.467adf36.css.map",
+    "main.e6d674da.js.map": "/static/react/js/main.e6d674da.js.map"
   },
   "entrypoints": [
-    "css/main.c9ade73a.css",
-    "js/main.b908e6af.js"
+    "css/main.467adf36.css",
+    "js/main.e6d674da.js"
   ]
 }

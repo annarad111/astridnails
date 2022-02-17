@@ -5,6 +5,7 @@
   "homepage": "/static/react",
   "dependencies": {
     "@babel/core": "^7.16.0",
+    "@googlemaps/react-wrapper": "^1.1.23",
     "@pmmmwh/react-refresh-webpack-plugin": "^0.5.3",
     "@svgr/webpack": "^5.5.0",
     "@testing-library/jest-dom": "^5.16.1",
@@ -27,6 +28,8 @@
     "eslint-webpack-plugin": "^3.1.1",
     "file-loader": "^6.2.0",
     "fs-extra": "^10.0.0",
+    "google-map-react": "^2.1.10",
+    "google-maps-react": "^2.0.6",
     "html-webpack-plugin": "^5.5.0",
     "identity-obj-proxy": "^3.0.0",
     "jest": "^27.4.3",
@@ -45,8 +48,10 @@
     "react-dev-utils": "^12.0.0",
     "react-dom": "^17.0.2",
     "react-icons": "^4.3.1",
+    "react-particle-effect-button": "^1.0.1",
     "react-refresh": "^0.11.0",
     "react-router-dom": "^6.2.1",
+    "react-simple-image-viewer": "^1.1.1",
     "resolve": "^1.20.0",
     "resolve-url-loader": "^4.0.0",
     "sass-loader": "^12.3.0",
@@ -140,5 +145,9 @@
     "presets": [
       "react-app"
     ]
+  },
+  "devDependencies": {
+    "@iconify-icons/mdi": "^1.1.48",
+    "@iconify/react": "^3.1.3"
   }
 }

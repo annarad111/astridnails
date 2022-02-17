@@ -1,11 +1,11 @@
 import React from "react";
 import AliceCarousel from "react-alice-carousel";
 import "react-alice-carousel/lib/alice-carousel.css";
-import nails1 from '../../images/nails6.jpg'
-import nails2 from '../../images/nails7.jpg'
-import nails3 from '../../images/nails8.jpg'
-import nails4 from "../../images/nails9.jpg";
-import nails5 from "../../images/nails10.jpg";
+import nailsa1 from '../../images/nailsa1.jpeg'
+import nailsa2 from '../../images/nailsa2.jpeg'
+import nailsa3 from '../../images/nailsa3.jpeg'
+import nailsa4 from "../../images/nailsa4.jpeg";
+import nailsa5 from "../../images/nailsa5.jpeg";
 import '../Slider/slider.css'
 
         
@@ -13,19 +13,19 @@ import '../Slider/slider.css'
 
 const items = [
   <div className="item" data-value="1">
-    <img src={nails1} className="sliderimg" />
+    <img src={nailsa1} className="sliderimg" />
   </div>,
   <div className="item" data-value="2">
-    <img src={nails2} className="sliderimg" />
+    <img src={nailsa2} className="sliderimg" />
   </div>,
   <div className="item" data-value="3">
-    <img src={nails3} className="sliderimg" />
+    <img src={nailsa3} className="sliderimg" />
   </div>,
   <div className="item" data-value="4">
-    <img src={nails4} className="sliderimg" />
+    <img src={nailsa4} className="sliderimg" />
   </div>,
   <div className="item" data-value="5">
-    <img src={nails5} className="sliderimg" />
+    <img src={nailsa5} className="sliderimg" />
   </div>,
 ];
 
