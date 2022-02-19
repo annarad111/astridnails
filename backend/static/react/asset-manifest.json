@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/react/css/main.467adf36.css",
-    "main.js": "/static/react/js/main.e6d674da.js",
+    "main.css": "/static/react/css/main.232a4f71.css",
+    "main.js": "/static/react/js/main.f9a890b7.js",
     "media/nails7.jpg": "/static/react/media/nails7.3134133f155765d1a85d.jpg",
     "media/nails8.jpg": "/static/react/media/nails8.770087413131c1871c37.jpg",
     "media/nails9.jpg": "/static/react/media/nails9.382c524a5fbf75b3b674.jpg",
@@ -20,11 +20,11 @@
     "media/nails1.jpg": "/static/react/media/nails1.3346dff6e7684072b1cc.jpg",
     "media/nails4.jpg": "/static/react/media/nails4.ec58f3415a669db7941f.jpg",
     "../../templates/index.html": "/static/react/../../templates/index.html",
-    "main.467adf36.css.map": "/static/react/css/main.467adf36.css.map",
-    "main.e6d674da.js.map": "/static/react/js/main.e6d674da.js.map"
+    "main.232a4f71.css.map": "/static/react/css/main.232a4f71.css.map",
+    "main.f9a890b7.js.map": "/static/react/js/main.f9a890b7.js.map"
   },
   "entrypoints": [
-    "css/main.467adf36.css",
-    "js/main.e6d674da.js"
+    "css/main.232a4f71.css",
+    "js/main.f9a890b7.js"
   ]
 }

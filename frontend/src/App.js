@@ -14,6 +14,8 @@ import {
   Link,
   Outlet,
 } from "react-router-dom";
+import Videos from "./components/Videos/Videos.js";
+import Photos from "./components/Photos/Photos.js";
 
 function App()  {
   return (
@@ -26,6 +28,8 @@ function App()  {
           <Route path="/contact" element={<Contact />} />
           <Route path="/sign-up" element={<Gallery />} />
           <Route path="/services" element={<Services />} />
+          <Route path="/videos" element={<Videos />} />
+          <Route path="/photos" element={<Photos />} />
         </Routes>
       </Router>
       <a
