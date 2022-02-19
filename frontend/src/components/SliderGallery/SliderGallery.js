@@ -6,17 +6,22 @@ import nails2 from '../../images/nails2.jpg';
 import nails3 from '../../images/nails3.jpg';
 import nails4 from '../../images/nails4.jpg';
 import nails5 from '../../images/nails5.jpg';
-import nails6 from '../../images/nails6.jpg';
-import nails7 from '../../images/nails7.jpg';
-import nails8 from '../../images/nails8.jpg';
-import nails9 from '../../images/nails9.jpg';
-import nails10 from '../../images/nails10.jpg';
+import nails6 from '../../images/nailsastrid1.jpeg'
+import nails7 from '../../images/nailsastrid2.jpeg'
+import nails8 from '../../images/nailsastrid4.jpeg'
+import nails9 from '../../images/nailsastrid5.jpeg'
+import nails10 from '../../images/nailsastrid6.jpeg'
+import nails11 from '../../images/nailsastrid8.jpeg'
+import nails12 from '../../images/nailsastrid10.jpeg'
+import nails13 from '../../images/nailsastrid17.jpeg'
+import nails14 from '../../images/nailsastrid18.jpeg'
+
 
 function Images() {
   const [currentImage, setCurrentImage] = useState(0);
   const [isViewerOpen, setIsViewerOpen] = useState(false);
   const images = [
-    nails1,nails2,nails3,nails4,nails5,nails6,nails7,nails8,nails9,nails10,
+    nails1,nails2,nails3,nails4,nails5,nails6,nails7,nails8,nails9,nails10,nails11,nails12,nails13,nails14
   ];
 
   const openImageViewer = useCallback((index) => {

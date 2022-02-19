@@ -46,19 +46,23 @@
 }
 
 .gallery-link{
+    display: block;
     background-color: #8fbc8f;
     padding: 1em 2em;
     border-radius: 50px;
     text-decoration: none;
     color: white;
+    margin: 150px;
 }
 
 .gallery-link:hover{
+    display: block;
     background-color: #ffffff;
     padding: 1em 2em;
     border-radius: 50px;
     text-decoration: none;
     color: rgb(0, 0, 0);
+    margin: 150px;
 }
 
 
@@ -74,15 +78,6 @@
     display: flex;
     position: absolute;
     z-index: 999;
-    margin: 0 auto;
-    left: 0;
-    right: 0;
-    top: 50%;
     text-align: center;
-    width: 80%;
-    align-items: center;
-    justify-content: center;
-    align-content: center;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+    
 }
