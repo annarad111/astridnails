@@ -1,8 +1,7 @@
 {
   "files": {
-    "main.css": "/static/react/css/main.37735d6f.css",
-    "main.js": "/static/react/js/main.66588a6d.js",
-    "media/services2.jpg": "/static/react/media/services2.011e30e09ab715bc4225.jpg",
+    "main.css": "/static/react/css/main.74c8456f.css",
+    "main.js": "/static/react/js/main.d48e7401.js",
     "media/video5.mp4": "/static/react/media/video5.78afa03b6962873ec549.mp4",
     "media/video1.mp4": "/static/react/media/video1.d3766787f3e66eb83fe5.mp4",
     "media/video2.mp4": "/static/react/media/video2.ccb2c3db572e822a51e4.mp4",
@@ -12,6 +11,7 @@
     "media/video6.mp4": "/static/react/media/video6.c6dfc5a9d107a71a06d3.mp4",
     "media/nailsastrid1.jpeg": "/static/react/media/nailsastrid1.048e34c31a6cf5426f90.jpeg",
     "media/video3.mp4": "/static/react/media/video3.c5285c723f8d4436bbe5.mp4",
+    "media/nailsastrid11.jpeg": "/static/react/media/nailsastrid11.bc2e167f6897e52f72b4.jpeg",
     "media/nailsastrid4.jpeg": "/static/react/media/nailsastrid4.6f04d36bbfcbbb3aa0ce.jpeg",
     "media/nailsastrid5.jpeg": "/static/react/media/nailsastrid5.a92ae6eb188ce8bbc9a8.jpeg",
     "media/nailsastrid17.jpeg": "/static/react/media/nailsastrid17.e8b760f4568f049611ab.jpeg",
@@ -30,12 +30,13 @@
     "media/nails4.jpg": "/static/react/media/nails4.ec58f3415a669db7941f.jpg",
     "media/nailsastrid2.jpeg": "/static/react/media/nailsastrid2.2d80aed66768b73f2b78.jpeg",
     "media/nailsastrid8.jpeg": "/static/react/media/nailsastrid8.3498ee8f418ae1cee03b.jpeg",
+    "media/backimg.jpeg": "/static/react/media/backimg.5b087220e16a5a22f439.jpeg",
     "../../templates/index.html": "/static/react/../../templates/index.html",
-    "main.37735d6f.css.map": "/static/react/css/main.37735d6f.css.map",
-    "main.66588a6d.js.map": "/static/react/js/main.66588a6d.js.map"
+    "main.74c8456f.css.map": "/static/react/css/main.74c8456f.css.map",
+    "main.d48e7401.js.map": "/static/react/js/main.d48e7401.js.map"
   },
   "entrypoints": [
-    "css/main.37735d6f.css",
-    "js/main.66588a6d.js"
+    "css/main.74c8456f.css",
+    "js/main.d48e7401.js"
   ]
 }

@@ -8,7 +8,7 @@
     align-items: baseline;
     flex-direction: row;
     flex-wrap: nowrap;
-    font-size:1em;
+    font-size:2em;
   }
 }
 .call-btn{
@@ -92,13 +92,14 @@
   }
 
   .nav-menu{
-    display: block;
+    margin: 3px;
     -webkit-box-align: center;
     align-items: center;
     margin-right: -24px;
     font-family: Ubuntu, sans-serif;
     /* height: fit-content; */
     justify-content: center;
+    margin: 3px -24px 3px -30px;
   }
 
   .nav-link{
@@ -113,5 +114,14 @@
     font-family: Ubuntu, sans-serif;
     cursor: pointer;
     margin-bottom: 10px;
+  }
+  .nav-link:hover {
+  transition: all 0.2s ease-in-out;
+  background: #8fbc8f;
+  color: #fff;
+}
+
+  .call-btn{
+    display: none;
   }
 }

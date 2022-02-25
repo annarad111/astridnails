@@ -13,9 +13,14 @@ const location = {
 export const Contact = () => {
   return (
     <div>
-      <h1 className="text">Contact</h1>
-      <Map location={location} zoomLevel={19} />
-      <p className="contact-text">Adresa: <br/> Strada Chitarei<br/>Bucuresti<br/> Sector 3</p>
+        <h1 className="text">Contact</h1>
+        <Map location={location} zoomLevel={19} />
+        <p className="contact-text">
+          Adresa: <br /> Strada Chitarei
+          <br />
+          Bucuresti
+          <br /> Sector 3
+        </p>
     </div>
   );
 };

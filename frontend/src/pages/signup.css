@@ -81,3 +81,24 @@
     text-align: center;
     
 }
+
+@media only screen and (max-width: 600px) {
+    .links-to-gallery {
+    width: auto;
+    align-content: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    flex-direction: column;
+}
+.links-to {
+    display: flex;
+    position: absolute;
+    text-align: center;
+    z-index: 999;
+    flex-direction: column;
+    gap: 90px;
+}
+
+}

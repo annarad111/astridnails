@@ -5,8 +5,8 @@
 
 @media screen and (max-width: 768px){
     .gallery-img{
-        height: 200px !important;
-        width: 200px !important;
+        height: 300px !important;
+        width: 300px !important;
         margin: 0 auto 30px auto !important;
     }
     .styles-module_slide__1zrfk {

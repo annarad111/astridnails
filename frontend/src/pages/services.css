@@ -3,6 +3,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Poppins:wght@100;200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
+
+.background-image{
+    background-image: url("../images/backimg.jpeg");
+    background-size: cover;
+    background-attachment: fixed;
+    z-index: -10;
+}
+
+
 .text{
     /* color: #000;
     display: flex;
@@ -16,7 +25,6 @@
     color: rgb(0, 0, 0);
     white-space: nowrap;
     margin:0;
-    padding:0;
     display: flex;
     justify-content: center;
     margin-block-start: 8%;
@@ -25,15 +33,17 @@
     background: linen;
     padding: 50px;
     font-size: 3em;
+    
 }
 
 .card{
-    background-image: url("../images/services2.jpg");
+    background-image: url("../images/backimg.jpeg");
     margin: auto;
     padding: 100px;
     z-index: -10;
     background-size: cover;
     background-attachment: fixed;
+    display: contents;
 }
 
 .interior{
@@ -57,12 +67,13 @@
     font-size: 100px;
     margin-top: 0%;
     color: black;
+    padding-top: 100px !important;
 
 }
 
 p{
     font-family: 'Montserrat', sans-serif;
-    font-size: 2em;
+    font-size: 1.7em;
 }
 
 .services-btn{
@@ -89,7 +100,7 @@ p{
 
 @media screen and (max-width: 768px) {
     .card{
-        background-image: url("../images/services2.jpg");
+        background-image: url("../images/backimg.jpeg");
         margin: auto;
         z-index: -10;
         background-size: cover;
@@ -111,7 +122,7 @@ p{
     }
     .services-btn{
         align-items: center;
-    background: #f0f8ff;
+    background: #8fbc8f;
     border-radius: 20px;
     color: #000;
     cursor: pointer;
@@ -125,4 +136,9 @@ p{
     text-decoration: none;
     justify-content: center;
     }
+    .services-btn:hover{
+    transition: all 0.2s ease-in-out;
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+}
 }

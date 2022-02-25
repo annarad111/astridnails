@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Sora:wght@300&family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
 
 .text{
     color: rgb(0, 0, 0);
@@ -9,4 +10,85 @@
     justify-content: center;
     margin-block-start: 8%;
     font-family: 'Ubuntu', sans-serif;
+}
+
+.about{
+    display: flex;
+    text-align: center;
+    margin: 50px;
+}
+
+.img-about{
+    border-radius: 500px;
+    height: 500px;
+    width: 500px;
+    margin:10px;
+    margin-bottom: 70px;
+}
+
+.down-img{
+    border-radius: 500px;
+    height: 500px;
+    width: 500px;
+    margin:10px;
+    margin-bottom: 70px;
+}
+
+.about-down{
+    margin: 60px;
+    text-align: center;
+}
+
+.text-down{
+    font-family: 'Montserrat', sans-serif;
+    font-size: x-large;
+    margin: 0 200px;
+    margin-bottom: 50px;
+}
+
+.text-up{
+    font-family: 'Montserrat', Semi-bold 600;
+    font-size: x-large;
+    margin: 0 200px;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .text-down{
+    font-family: 'Montserrat', sans-serif;
+    margin: auto;
+    margin-bottom: 50px;
+    }
+
+    .text-up{
+    font-family: 'Montserrat', Semi-bold 600;
+    font-size: 2em;
+    margin: auto;
+    }
+    .aos-init{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: stretch;
+    justify-content: space-evenly;
+    align-items: center;
+
+    }
+    .about-down {
+    text-align: center;
+}
+.down-img, .img-about {
+    border-radius: 500px;
+    height: 300px;
+    margin: 10px;
+    width: 300px;
+    margin-bottom: 40px;
+}   
+.box {
+    display: flex;
+    background: #8fbc8f;
+    bottom: 0;
+    overflow-x: hidden;
+    width: 100%;
+}
 }

@@ -5,10 +5,16 @@
   overflow-x: hidden;
 }
 
-@media only screen and (max-width: 1000px) {
-  .box {
-    padding: 70px 30px;
+@media only screen and (max-width: 600px) {
+  .box{
+    padding: 0 !important;
   }
+  .fVHbfu {
+    display: flex !important;
+    flex-direction: column !important;
+    text-align: center !important;
+    margin: 0 !important;
+}
 }
 
 .footer-text{

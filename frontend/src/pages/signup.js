@@ -9,15 +9,19 @@ import nails2 from '../images/nails2.jpg';
 export const Gallery = () => {
   return (
     <div>
-      <h1 className="text">Gallery</h1>
+        <h1 className="text">Gallery</h1>
       <div className="links-to-gallery">
-      <img src={nails1} className="img-for-gallery"></img>
-      <img src={nails2} className="img-for-gallery"></img>
-        <div className="links-to">
-      <Link to="/videos" className='gallery-link'>Videos</Link>
-      <Link to="/photos" className='gallery-link'>Photos</Link>
+          <img src={nails1} className="img-for-gallery"></img>
+          <img src={nails2} className="img-for-gallery"></img>
+          <div className="links-to">
+            <Link to="/videos" className="gallery-link">
+              Videos
+            </Link>
+            <Link to="/photos" className="gallery-link">
+              Photos
+            </Link>
+          </div>
         </div>
-      </div>
     </div>
   );
 };
