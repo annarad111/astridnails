@@ -1,5 +1,5 @@
 import React from "react";
-import "./signup.css";
+import "./gallery.css";
 import Images from "../components/SliderGallery/SliderGallery";
 import video1 from '../videos/video1.mp4';
 import { Link } from 'react-router-dom';

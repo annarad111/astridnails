@@ -1,6 +1,7 @@
 import React from "react";
 import "./contact.css";
 import Map from '../components/Map/Map';
+import { BsFillHeartFill } from "react-icons/bs";
 
 
 const location = {
@@ -13,16 +14,38 @@ const location = {
 export const Contact = () => {
   return (
     <div>
-        <h1 className="text">Contact</h1>
-        <Map location={location} zoomLevel={19} />
+      <h1 className="text">Contact</h1>
+      <Map location={location} zoomLevel={19} />
+      <div className="contactdiv">
         <p className="contact-text">
-          Adresa: <br /> Strada Chitarei
-          <br />
-          Bucuresti
-          <br /> Sector 3
+          <BsFillHeartFill />
+          Strada Chitarei, Bucuresti
         </p>
+        <p className="contact-text">
+          <BsFillHeartFill />
+          Telefon : +40 787 400 999
+        </p>
+        <a href="https://wa.me/+40787400999" className="wapp">
+          <BsFillHeartFill />
+          WhatsApp
+        </a>
+        <a
+          href="https://www.facebook.com/nailsbyastrid_-101801234866514/"
+          className="wapp"
+        >
+          <BsFillHeartFill />
+          Facebook
+        </a>
+        <a
+          href="https://www.instagram.com/nails.by.astrid_/?hl=en"
+          className="wapp"
+        >
+          <BsFillHeartFill />
+          Instagram
+        </a>
+      </div>
     </div>
   );
 };
-//indicatii de a ajunge cat mai repede de la metrou etc.
+
 export default Contact;

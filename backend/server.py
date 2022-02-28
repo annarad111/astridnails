@@ -8,4 +8,3 @@ def index():
     return render_template("index.html", token="Hello Flask")
 
 app.run(debug=True)
-#sourceset picture modificat rezolutie

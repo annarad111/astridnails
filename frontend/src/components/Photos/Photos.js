@@ -7,8 +7,6 @@ export const Photos = () => {
     <div>
           <h1 className="text">Photos</h1>
           <Images />
-            
-          
     </div>
   );
 };

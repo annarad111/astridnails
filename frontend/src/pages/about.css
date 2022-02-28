@@ -10,6 +10,7 @@
     justify-content: center;
     margin-block-start: 8%;
     font-family: 'Ubuntu', sans-serif;
+    background: linear-gradient(87deg, #bce2bc, transparent);
 }
 
 .about{
@@ -26,44 +27,19 @@
     margin-bottom: 70px;
 }
 
-.down-img{
-    border-radius: 500px;
-    height: 500px;
-    width: 500px;
-    margin:10px;
-    margin-bottom: 70px;
-}
-
-.about-down{
-    margin: 60px;
-    text-align: center;
-}
-
-.text-down{
-    font-family: 'Montserrat', sans-serif;
-    font-size: x-large;
-    margin: 0 200px;
-    margin-bottom: 50px;
-}
 
 .text-up{
     font-family: 'Montserrat', Semi-bold 600;
     font-size: x-large;
-    margin: 0 200px;
+    width: auto;
 }
 
 @media only screen and (max-width: 600px) {
 
-    .text-down{
-    font-family: 'Montserrat', sans-serif;
-    margin: auto;
-    margin-bottom: 50px;
-    }
-
     .text-up{
     font-family: 'Montserrat', Semi-bold 600;
     font-size: 2em;
-    margin: auto;
+    width: auto;
     }
     .aos-init{
     display: flex;
@@ -74,10 +50,8 @@
     align-items: center;
 
     }
-    .about-down {
-    text-align: center;
-}
-.down-img, .img-about {
+
+.img-about {
     border-radius: 500px;
     height: 300px;
     margin: 10px;
@@ -86,9 +60,23 @@
 }   
 .box {
     display: flex;
-    background: #8fbc8f;
+    background: #bce2bc;
     bottom: 0;
     overflow-x: hidden;
     width: 100%;
 }
+}
+
+.advice{
+    margin: 50px;
+    font-size: 4em;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: #bce2bc4d;
+    color: #000;
+    display: flex;
+    font-family: Ubuntu,sans-serif;
+    justify-content: center;
+    margin-block-start: 8%;
+    white-space: nowrap;
 }

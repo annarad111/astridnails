@@ -4,7 +4,7 @@ import Navbar from "../src/components/Navbar/navbar.js";
 import Home from "./pages";
 import About from "./pages/about";
 import Contact from "./pages/contact";
-import Gallery from "./pages/signup";
+import Gallery from "./pages/gallery";
 import Services from "./pages/services";
 import Footer from "./components/Footer/Footer.js";
 import {
@@ -22,18 +22,18 @@ function App()  {
     <>
       <Router>
         <Navbar />
-        <Routes> 
+        <Routes>
           <Route path="/" exact element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
-          <Route path="/sign-up" element={<Gallery />} />
+          <Route path="/gallery" element={<Gallery />} />
           <Route path="/services" element={<Services />} />
           <Route path="/videos" element={<Videos />} />
           <Route path="/photos" element={<Photos />} />
         </Routes>
       </Router>
       <a
-        href="https://wa.me/+40735131140"
+        href="https://wa.me/+40787400999"
         class="whatsapp_float"
         target="_blank"
         rel="noopener noreferrer"

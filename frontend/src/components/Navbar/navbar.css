@@ -13,7 +13,7 @@
 }
 .call-btn{
     border-radius: 20px;
-  background: 	#8fbc8f;
+  background: 	#bce2bc;
   padding: 10px 22px;
   color: #fff;
   outline: none;
@@ -62,7 +62,7 @@
 
 .nav-link:hover {
   transition: all 0.2s ease-in-out;
-  background: #8fbc8f;
+  background: #bce2bc;
   color: #fff;
 }
 
@@ -97,9 +97,9 @@
     align-items: center;
     margin-right: -24px;
     font-family: Ubuntu, sans-serif;
-    /* height: fit-content; */
     justify-content: center;
-    margin: 3px -24px 3px -30px;
+    margin: auto;
+    width: auto;
   }
 
   .nav-link{
@@ -107,7 +107,7 @@
     -webkit-box-align: center;
     align-items: center;
     text-decoration: none;
-    padding: 10px 15px;
+    padding: 10px;
     color: rgb(0, 0, 0);
     border-radius: 20px;
     font-size: large;
@@ -117,7 +117,7 @@
   }
   .nav-link:hover {
   transition: all 0.2s ease-in-out;
-  background: #8fbc8f;
+  background: #bce2bc;
   color: #fff;
 }
 

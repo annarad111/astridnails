@@ -9,6 +9,7 @@
     justify-content: center;
     margin-block-start: 8%;
     font-family: 'Ubuntu', sans-serif;
+    background: linear-gradient(87deg, #bce2bc, transparent);
 }
 
 .images{
@@ -47,7 +48,7 @@
 
 .gallery-link{
     display: block;
-    background-color: #8fbc8f;
+    background-color: #bce2bc;
     padding: 1em 2em;
     border-radius: 50px;
     text-decoration: none;

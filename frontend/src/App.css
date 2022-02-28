@@ -1,12 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Sora:wght@300&display=swap');
 @import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css");
 
-/* *{
-  font-family: 'Sora', sans-serif;
-  box-sizing: border-box;
-  margin:0;
-  padding:0;
-} */
 
 .sliderimg{
   width: 100%;
@@ -20,7 +14,7 @@
   height: 60px;
   bottom: 40px;
   right: 40px;
-  background-color: #5dad34;
+  background-color: #bce2bc;
   color: #FFF;
   border-radius: 50px;
   text-align: center;

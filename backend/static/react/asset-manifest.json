@@ -1,11 +1,12 @@
 {
   "files": {
-    "main.css": "/static/react/css/main.74c8456f.css",
-    "main.js": "/static/react/js/main.d48e7401.js",
+    "main.css": "/static/react/css/main.294ca2a4.css",
+    "main.js": "/static/react/js/main.62edce59.js",
     "media/video5.mp4": "/static/react/media/video5.78afa03b6962873ec549.mp4",
     "media/video1.mp4": "/static/react/media/video1.d3766787f3e66eb83fe5.mp4",
     "media/video2.mp4": "/static/react/media/video2.ccb2c3db572e822a51e4.mp4",
     "media/video4.mp4": "/static/react/media/video4.2534861a6445952381fc.mp4",
+    "media/slidervideo.mp4": "/static/react/media/slidervideo.1e90b3b18b8c26de9701.mp4",
     "media/video8.mp4": "/static/react/media/video8.7979718e4b2383d64c71.mp4",
     "media/video7.mp4": "/static/react/media/video7.74660acd7e11db8ef707.mp4",
     "media/video6.mp4": "/static/react/media/video6.c6dfc5a9d107a71a06d3.mp4",
@@ -13,15 +14,20 @@
     "media/video3.mp4": "/static/react/media/video3.c5285c723f8d4436bbe5.mp4",
     "media/nailsastrid11.jpeg": "/static/react/media/nailsastrid11.bc2e167f6897e52f72b4.jpeg",
     "media/nailsastrid4.jpeg": "/static/react/media/nailsastrid4.6f04d36bbfcbbb3aa0ce.jpeg",
+    "media/nailsastrid9.jpeg": "/static/react/media/nailsastrid9.a0bb3f3fa59757d8d593.jpeg",
     "media/nailsastrid5.jpeg": "/static/react/media/nailsastrid5.a92ae6eb188ce8bbc9a8.jpeg",
     "media/nailsastrid17.jpeg": "/static/react/media/nailsastrid17.e8b760f4568f049611ab.jpeg",
     "media/nailsastrid18.jpeg": "/static/react/media/nailsastrid18.6b12b60cf6ad921d1533.jpeg",
     "media/nailsa1.jpeg": "/static/react/media/nailsa1.5fac378b69b14c8a8c73.jpeg",
     "media/nailsa2.jpeg": "/static/react/media/nailsa2.4b0f6189a83a2756339a.jpeg",
+    "media/nailsastrid15.jpeg": "/static/react/media/nailsastrid15.aab23159f9f014b0360f.jpeg",
     "media/nailsa5.jpeg": "/static/react/media/nailsa5.abd83b9d06dbdc475007.jpeg",
     "media/nailsa3.jpeg": "/static/react/media/nailsa3.511819f7d06526fa9ff4.jpeg",
     "media/nailsastrid6.jpeg": "/static/react/media/nailsastrid6.2f78dfdea7f26e06389d.jpeg",
+    "media/nailsastrid13.jpeg": "/static/react/media/nailsastrid13.c1dc1611cc970818f3c8.jpeg",
     "media/nails2.jpg": "/static/react/media/nails2.0c7077de0c791b14ceb1.jpg",
+    "media/nailsastrid16.jpeg": "/static/react/media/nailsastrid16.aa21464ae351265b27d3.jpeg",
+    "media/nailsastrid14.jpeg": "/static/react/media/nailsastrid14.2e5e70ad0d7e44b90b40.jpeg",
     "media/nailsastrid10.jpeg": "/static/react/media/nailsastrid10.93660a30d493e68a8034.jpeg",
     "media/nailsa4.jpeg": "/static/react/media/nailsa4.56c8aa2142f4548c370e.jpeg",
     "media/nails3.jpg": "/static/react/media/nails3.04432f095f4f39eb10f6.jpg",
@@ -32,11 +38,11 @@
     "media/nailsastrid8.jpeg": "/static/react/media/nailsastrid8.3498ee8f418ae1cee03b.jpeg",
     "media/backimg.jpeg": "/static/react/media/backimg.5b087220e16a5a22f439.jpeg",
     "../../templates/index.html": "/static/react/../../templates/index.html",
-    "main.74c8456f.css.map": "/static/react/css/main.74c8456f.css.map",
-    "main.d48e7401.js.map": "/static/react/js/main.d48e7401.js.map"
+    "main.294ca2a4.css.map": "/static/react/css/main.294ca2a4.css.map",
+    "main.62edce59.js.map": "/static/react/js/main.62edce59.js.map"
   },
   "entrypoints": [
-    "css/main.74c8456f.css",
-    "js/main.d48e7401.js"
+    "css/main.294ca2a4.css",
+    "js/main.62edce59.js"
   ]
 }

@@ -48,7 +48,7 @@ export const Home = () => {
       </div>
       <div className="call">
         <h1 className="titleafter">Contacteaza-ma ! </h1>
-        <a href="tel:+040735131145" className="call-link">
+        <a href="tel:+40787400999" className="call-link">
           Suna!
         </a>
       </div>

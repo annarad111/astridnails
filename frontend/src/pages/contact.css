@@ -10,12 +10,79 @@
     justify-content: center;
     margin-block-start: 8%;
     font-family: 'Ubuntu', sans-serif;
+    background: linear-gradient(87deg, #bce2bc, transparent);
 }
 
-.contact-text{
-    font-family: 'Poppins', sans-serif;
+.wapp{
+    font-family: 'Ubuntu', sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 2em;
+    width: auto;
+    cursor: pointer;
+    margin: 2vh;
+    color: black;
+    background: #bce2bc40;
+    border-radius: 20px;
+    text-decoration: none;
+
+}
+
+.wapp:active,.wapp:visited{
+    color: black;
+}
+
+.wapp:hover{
+    color:white;
+}
+
+.contact-text{
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    width: auto;
+    margin: 3vh;
+}
+
+.contactdiv{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    margin: 20px;
+}
+
+svg,path {
+    margin: 15px;
+}
+
+@media only screen and (max-width: 600px) {
+    .contact-text{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.2em;
+    width: auto;
+    margin: 2vh;
+}
+
+    .wapp{
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2em;
+    width: auto;
+    cursor: pointer;
+    text-decoration: none;
+    margin: 2vh;
+    background: #bce2bc40;
+    border-radius: 20px;
+
+}
+
+
+svg,path {
+    margin: 8px;
+}
 }
