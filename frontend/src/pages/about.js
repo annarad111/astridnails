@@ -1,5 +1,5 @@
 import React from "react";
-import './about.css'
+import './about.css';
 import nailsastrid11 from '../images/nailsastrid11.jpeg'
 import { BsFillHeartFill } from "react-icons/bs";
 import nailsastrid2 from '../images/nailsastrid2.jpeg'
