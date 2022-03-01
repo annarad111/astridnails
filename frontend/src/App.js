@@ -9,31 +9,32 @@ import Services from "./pages/services";
 import Footer from "./components/Footer/Footer.js";
 import history from "./history.js";
 import {
-  BrowserRouter as Router,
+  HashRouter,
   Routes,
   Route,
   Link,
   Outlet,
+  Navigate,
 } from "react-router-dom";
 import Videos from "./components/Videos/Videos.js";
 import Photos from "./components/Photos/Photos.js";
 
 
+console.log(React.version)
+
 function App()  {
   return (
     <>
-      <Router history={history}>
-        <Navbar />
-        <Routes>
-          <Route path="/" exact element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/gallery" element={<Gallery />} />
-          <Route path="/services" element={<Services />} />
-          <Route path="/videos" element={<Videos />} />
-          <Route path="/photos" element={<Photos />} />
-        </Routes>
-      </Router>
+      <Navbar />
+      <Routes>
+        <Route path="/" exact element={<Home />} />
+        <Route path="about" element={<About />} />
+        <Route path="contact" element={<Contact />} />
+        <Route path="/gallery" element={<Gallery />} />
+        <Route path="/services" element={<Services />} />
+        <Route path="/videos" element={<Videos />} />
+        <Route path="/photos" element={<Photos />} />
+      </Routes>
       <a
         href="https://wa.me/+40787400999"
         class="whatsapp_float"
