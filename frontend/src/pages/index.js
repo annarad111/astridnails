@@ -13,7 +13,7 @@ AOS.init();
 
 export const Home = () => {
   return (
-    <div>
+    <div className='big'>
       <Slider />
       <div className="afterslider">
         <h1 className="titleafter">Acceseaza lista de servicii ! </h1>

@@ -13,50 +13,89 @@ import '../Videos/videos.css'
 export const Videos = () => {
   return (
     <div>
-          <h1 className="text">Videos</h1>
-          <div className="videos">
-          <video  autoPlay loop muted className="video"
-            width="300"
-            height="300">
-            <source src={video1} type="video/mp4"/>
-            </video>
-            <video autoPlay loop muted className="video"
-            width="300"
-            height="300">
-            <source src={video2} type="video/mp4"/>
-            </video>
-            <video autoPlay loop muted className="video"
-            width="300"
-            height="300">
-            <source src={video3} type="video/mp4"/>
-            </video>
-            <video autoPlay loop muted className="video"
-            width="300"
-            height="300">
-            <source src={video4} type="video/mp4"/>
-            </video>
-            <video autoPlay loop muted className="video"
-            width="300"
-            height="300">
-            <source src={video5} type="video/mp4"/>
-            </video>
-            <video autoPlay loop muted className="video"
-            width="300"
-            height="300">
-            <source src={video6} type="video/mp4"/>
-            </video>
-            <video autoPlay loop muted className="video"
-            width="300"
-            height="300">
-            <source src={video7} type="video/mp4"/>
-            </video>
-            <video autoPlay loop muted className="video"
-            width="300"
-            height="300">
-            <source src={video8} type="video/mp4"/>
-            </video>
-            </div>
-        
+      <h1 className="text">Videos</h1>
+      <div className="videos">
+        <video
+          autoplay="autoplay"
+          loop="loop"
+          muted="muted"
+          className="video"
+          width="300"
+          height="300"
+        >
+          <source src={video1} type="video/mp4" />
+        </video>
+        <video
+          autoplay="autoplay"
+          loop="loop"
+          muted="muted"
+          className="video"
+          width="300"
+          height="300"
+        >
+          <source src={video2} type="video/mp4" />
+        </video>
+        <video
+          autoplay="autoplay"
+          loop="loop"
+          muted="muted"
+          className="video"
+          width="300"
+          height="300"
+        >
+          <source src={video3} type="video/mp4" />
+        </video>
+        <video
+          autoplay="autoplay"
+          loop="loop"
+          muted="muted"
+          className="video"
+          width="300"
+          height="300"
+        >
+          <source src={video4} type="video/mp4" />
+        </video>
+        <video
+          autoplay="autoplay"
+          loop="loop"
+          muted="muted"
+          className="video"
+          width="300"
+          height="300"
+        >
+          <source src={video5} type="video/mp4" />
+        </video>
+        <video
+          autoplay="autoplay"
+          loop="loop"
+          muted="muted"
+          className="video"
+          width="300"
+          height="300"
+        >
+          <source src={video6} type="video/mp4" />
+        </video>
+        <video
+          autoplay="autoplay"
+          loop="loop"
+          muted="muted"
+          className="video"
+          width="300"
+          height="300"
+        >
+          <source src={video7} type="video/mp4" />
+        </video>
+        <video
+          autoplay="autoplay"
+          loop="loop"
+          muted="muted"
+          className="video"
+          width="300"
+          height="300"
+        >
+          <source src={video8} type="video/mp4" />
+        </video>
+      </div>
     </div>
   );
 };

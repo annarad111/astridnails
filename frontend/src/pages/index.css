@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Sora:wght@300&family=Ubuntu:wght@300&display=swap');
 
+
+.big{
+  overflow: hidden;
+  margin-top: 20px;
+}
+
 .about {
     align-content: stretch;
     align-items: center;

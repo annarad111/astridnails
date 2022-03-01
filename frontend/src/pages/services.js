@@ -1,5 +1,9 @@
 import React from "react";
 import "./services.css";
+import services3 from '../images/services3.jpeg'
+import history from "../history.js";
+
+history.push("/");
 
 export const Services = () => {
   return (

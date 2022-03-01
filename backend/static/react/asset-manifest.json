@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/react/css/main.294ca2a4.css",
-    "main.js": "/static/react/js/main.62edce59.js",
+    "main.css": "/static/react/css/main.2dc5d503.css",
+    "main.js": "/static/react/js/main.6e80a985.js",
     "media/video5.mp4": "/static/react/media/video5.78afa03b6962873ec549.mp4",
     "media/video1.mp4": "/static/react/media/video1.d3766787f3e66eb83fe5.mp4",
     "media/video2.mp4": "/static/react/media/video2.ccb2c3db572e822a51e4.mp4",
@@ -36,13 +36,13 @@
     "media/nails4.jpg": "/static/react/media/nails4.ec58f3415a669db7941f.jpg",
     "media/nailsastrid2.jpeg": "/static/react/media/nailsastrid2.2d80aed66768b73f2b78.jpeg",
     "media/nailsastrid8.jpeg": "/static/react/media/nailsastrid8.3498ee8f418ae1cee03b.jpeg",
-    "media/backimg.jpeg": "/static/react/media/backimg.5b087220e16a5a22f439.jpeg",
+    "media/services3.jpeg": "/static/react/media/services3.5b087220e16a5a22f439.jpeg",
     "../../templates/index.html": "/static/react/../../templates/index.html",
-    "main.294ca2a4.css.map": "/static/react/css/main.294ca2a4.css.map",
-    "main.62edce59.js.map": "/static/react/js/main.62edce59.js.map"
+    "main.2dc5d503.css.map": "/static/react/css/main.2dc5d503.css.map",
+    "main.6e80a985.js.map": "/static/react/js/main.6e80a985.js.map"
   },
   "entrypoints": [
-    "css/main.294ca2a4.css",
-    "js/main.62edce59.js"
+    "css/main.2dc5d503.css",
+    "js/main.6e80a985.js"
   ]
 }

@@ -7,6 +7,7 @@ import Contact from "./pages/contact";
 import Gallery from "./pages/gallery";
 import Services from "./pages/services";
 import Footer from "./components/Footer/Footer.js";
+import history from "./history.js";
 import {
   BrowserRouter as Router,
   Routes,
@@ -17,10 +18,11 @@ import {
 import Videos from "./components/Videos/Videos.js";
 import Photos from "./components/Photos/Photos.js";
 
+
 function App()  {
   return (
     <>
-      <Router>
+      <Router history={history}>
         <Navbar />
         <Routes>
           <Route path="/" exact element={<Home />} />
