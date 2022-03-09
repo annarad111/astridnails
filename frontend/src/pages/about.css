@@ -1,6 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Sora:wght@300&family=Ubuntu:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
 
+.base{
+    overflow: hidden;
+}
+
+
 .text{
     color: rgb(0, 0, 0);
     white-space: nowrap;
@@ -65,6 +70,19 @@
     overflow-x: hidden;
     width: 100%;
 }
+.advice{
+    margin: 50px 2px;
+    font-size: 1.7em;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: #bce2bc4d;
+    color: #000;
+    display: flex;
+    font-family: Ubuntu,sans-serif;
+    justify-content: center;
+    margin-block-start: 8%;
+    white-space: nowrap;
+}
 }
 
 .advice{
@@ -79,4 +97,20 @@
     justify-content: center;
     margin-block-start: 8%;
     white-space: nowrap;
+}
+
+@media only screen and (max-width: 700px) {
+    .advice{
+    margin: 50px;
+    font-size: 2em !important;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: #bce2bc4d;
+    color: #000;
+    display: flex;
+    font-family: Ubuntu,sans-serif;
+    justify-content: center;
+    margin-block-start: 8%;
+    white-space: nowrap;
+}
 }

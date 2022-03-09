@@ -14,7 +14,13 @@ import '../Slider/slider.css'
 const Slider = () => {
     return (
       <div className="item">
-        <video autoplay="autoplay" loop="loop" muted="muted" className="videosslider">
+        <video
+          autoplay="autoplay"
+          loop="loop"
+          muted="muted"
+          playsinline="playsinline"
+          className="videosslider"
+        >
           <source src={slidervideo} type="video/mp4" />
         </video>
       </div>

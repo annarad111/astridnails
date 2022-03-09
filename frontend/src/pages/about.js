@@ -6,7 +6,7 @@ import nailsastrid2 from '../images/nailsastrid2.jpeg'
 
 export const About = () => {
   return (
-    <div>
+    <div className="base">
       <h1 className="text">Despre</h1>
       <div className="about">
         <div data-aos="zoom-in">
@@ -25,37 +25,43 @@ export const About = () => {
           faci o schimbare la manichiura \ pedichiura ta, eu sunt aici și abia
           aștept să ne cunoastem.
         </p>
-        <h1 className="advice">Sfaturi pentru întreținere acasă</h1>
+        <div className="advicetext">
+          <h1 className="advice">Sfaturi pentru întreținere acasă</h1>
+        </div>
+
         <div data-aos="fade-right">
           <p className="text-up">
-          Vreau să știți că unghiile au nevoie și de îngrijirea voastră, nu doar a tehnicianului. Uitați câteva sfaturi care vă pot ajuta:
+            Vreau să știți că unghiile au nevoie și de îngrijirea voastră, nu
+            doar a tehnicianului. Uitați câteva sfaturi care vă pot ajuta:
           </p>
           <BsFillHeartFill />
           <p className="text-up">
-          Când folosiți produse toxice de curățare este foarte important să folosiți mănuși, vă ajutați unghiile cât și pielea de pe mâini.
+            Când folosiți produse toxice de curățare este foarte important să
+            folosiți mănuși, vă ajutați unghiile cât și pielea de pe mâini.
           </p>
           <BsFillHeartFill />
           <p className="text-up">
-          Nu încercați să vă tăiați cuticula acasă, sau mai rău să o rupeți, pot apărea infecții grave.
+            Nu încercați să vă tăiați cuticula acasă, sau mai rău să o rupeți,
+            pot apărea infecții grave.
           </p>
           <BsFillHeartFill />
           <p className="text-up">
-          Nu vă mâncați lateralele ( am mai întâlnit cazuri ), puteți să
+            Nu vă mâncați lateralele ( am mai întâlnit cazuri ), puteți să
             faceți onicoliză.
           </p>
           <BsFillHeartFill />
           <p className="text-up">
-          Nu vă îndepărați singure materialul de pe unghii, riscați să vă
+            Nu vă îndepărați singure materialul de pe unghii, riscați să vă
             traumatizați unghia.
           </p>
           <BsFillHeartFill />
           <p className="text-up">
-          Folosiți zilnic ulei pentru cuticule și cremă de mâini, oferiți-le
+            Folosiți zilnic ulei pentru cuticule și cremă de mâini, oferiți-le
             mâinilor voastre hidratatea de care au nevoie.
           </p>
           <BsFillHeartFill />
           <p className="text-up">
-          Întreținerea la unghii se face la maxim 4 săptămâni, pentru că nu
+            Întreținerea la unghii se face la maxim 4 săptămâni, pentru că nu
             materialul strică unghia, ci întrețiinerile peste 4 săptămâni.
           </p>
           <BsFillHeartFill />

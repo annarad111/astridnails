@@ -33,10 +33,15 @@ const Footer = () => {
           </Column>
           <Column>
             <Heading>Servicii</Heading>
-            <FooterLink to={"/services"}>Manichiură\Pedichiură clasică</FooterLink>
+            <FooterLink to={"/services"}>
+              Manichiură\Pedichiură clasică
+            </FooterLink>
             <FooterLink to={"/services"}>Manichiură semipermanentă</FooterLink>
             <FooterLink to={"/services"}>Construcție gel</FooterLink>
             <FooterLink to={"/services"}>Pedichiură semipermanentă</FooterLink>
+            <FooterLink to={"/services"}>Întreținere gel</FooterLink>
+            <FooterLink to={"/services"}>Construcție Slim</FooterLink>
+            <FooterLink to={"/services"}>Întreținere Slim</FooterLink>
           </Column>
           <Column>
             <Heading>Contact</Heading>

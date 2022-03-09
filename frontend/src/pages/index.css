@@ -178,3 +178,14 @@
     align-content: center;
     flex-wrap: nowrap;}
   }
+
+
+  @media only screen and (max-width: 700px) {
+    .img{
+      border-radius: 700px;
+      height: 319px!important;
+      margin-left: 5px;
+      margin-top: 50px;
+      width: 320px!important;
+    }
+  }
