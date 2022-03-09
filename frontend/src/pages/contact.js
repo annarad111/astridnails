@@ -19,7 +19,7 @@ export const Contact = () => {
       <div className="contactdiv">
         <p className="contact-text">
           <BsFillHeartFill />
-          Strada Chitarei, Bucuresti
+          Strada Chitarei, București
         </p>
         <p className="contact-text">
           <BsFillHeartFill />

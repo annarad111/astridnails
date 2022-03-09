@@ -16,7 +16,7 @@ const Navbar = () => {
           </Link>
           <div className="nav-menu">
             <Link className="nav-link" to="/about" activeStyle>
-              About
+              Despre
             </Link>
             <Link className="nav-link" to="/services" activeStyle>
               Servicii
@@ -25,9 +25,9 @@ const Navbar = () => {
               Contact
             </Link>
             <Link className="nav-link" to="/gallery" activeStyle>
-              Gallery
+              Galerie
             </Link>
-            <a href="tel:+040787400999" className='call-btn'>Suna acum!</a>
+            <a href="tel:+040787400999" className='call-btn'>Sună acum!</a>
           </div>
         </nav>
       </>

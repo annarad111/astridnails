@@ -29,17 +29,17 @@ const Footer = () => {
             <Heading>Adresa</Heading>
             <p className="footer-text">Strada Chitarei</p>
             <p className="footer-text">Sector 3</p>
-            <p className="footer-text">Bucuresti</p>
+            <p className="footer-text">București</p>
           </Column>
           <Column>
             <Heading>Servicii</Heading>
-            <FooterLink to={"/services"}>Manichiura fara oja</FooterLink>
-            <FooterLink to={"/services"}>Manichiura semipermanenta</FooterLink>
-            <FooterLink to={"/services"}>Constructie gel</FooterLink>
-            <FooterLink to={"/services"}>Pedichiura semipermanenta</FooterLink>
+            <FooterLink to={"/services"}>Manichiură\Pedichiură clasică</FooterLink>
+            <FooterLink to={"/services"}>Manichiură semipermanentă</FooterLink>
+            <FooterLink to={"/services"}>Construcție gel</FooterLink>
+            <FooterLink to={"/services"}>Pedichiură semipermanentă</FooterLink>
           </Column>
           <Column>
-            <Heading>Contact Us</Heading>
+            <Heading>Contact</Heading>
             {/* <FooterLinkWithIcon href="tel:+040787400999" icon="telephone">
               0787400999
             </FooterLinkWithIcon>

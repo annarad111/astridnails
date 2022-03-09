@@ -9,7 +9,7 @@ import nails2 from '../images/nails2.jpg';
 export const Gallery = () => {
   return (
     <div>
-        <h1 className="text">Gallery</h1>
+        <h1 className="text">Galerie</h1>
       <div className="links-to-gallery">
           <img src={nails1} className="img-for-gallery"></img>
           <img src={nails2} className="img-for-gallery"></img>

@@ -3,7 +3,7 @@ import "./index.css";
 import Slider from '../components/Slider/Slider.js'
 import Services from './services.js';
 import { Link } from 'react-router-dom';
-import nails1 from '../images/nails2.jpg';
+import nails1 from '../images/pozahomeresized.jpeg';
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -16,7 +16,7 @@ export const Home = () => {
     <div className='big'>
       <Slider />
       <div className="afterslider">
-        <h1 className="titleafter">Acceseaza lista de servicii ! </h1>
+        <h1 className="titleafter">Accesează lista de servicii ! </h1>
         <Link to="/services" className="link">
           Servicii
         </Link>
@@ -36,20 +36,19 @@ export const Home = () => {
         >
           <p className="about-text">
             <h1 className="text-animation">
-              Servicii full de manichiura <br /> si pedichiura profesionale
+            Servicii full de manichiură <br /> și pedichiură profesionale
             </h1>
-            Semipermanenta cu apex, întreținere gel, schimbari de arhitecutura,
+            Semipermanență cu apex, întreținere gel, schimbări de arhitecutură,
             <br />
-            constructii gel cu sablon sau tipsuri reutilizabile, pedichiura
-            semi,
-            <br /> manichiura clasica, pedichiura clasica.
+            construcții gel cu șablon sau tipsuri reutilizabile, pedichiură semi,
+            <br /> manichiură clasică, pedichiură clasică.
           </p>
         </div>
       </div>
       <div className="call">
-        <h1 className="titleafter">Contacteaza-ma ! </h1>
+        <h1 className="titleafter">Contacteaza-mă </h1>
         <a href="tel:+40787400999" className="call-link">
-          Suna!
+          Sună
         </a>
       </div>
     </div>

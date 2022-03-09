@@ -149,15 +149,11 @@
 
 }
 
-.img{
-  height: 400px;
-  border-radius: 700px;
-  margin-top: 50px;
-}
 
   .img{
     border-radius: 700px;
-    height: 300px;
+    height: 380px !important;
+    width: 360px !important;
     margin-left: 5px;
     margin-top: 50px;
   }
