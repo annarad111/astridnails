@@ -19,7 +19,7 @@ export const Services = () => {
             <p>Construcție gel | 210 lei || 3h</p>
             <p>Curațare manichiură | 80 lei || 1h </p>
             <p>Curațare pedichiură | 90 lei || 1h </p>
-            <p>Întreținere gel cu schimbare de arhitectură | 180 lei || 3h </p>
+            <p>Întreținere gel cu schimbare de arhitectură | 180 lei || 2h 30 min </p>
             <p>Construcție Slim | 250 lei || 3h 30 min </p>
             <p>Întreținere Slim | 200 lei || 2h 30 min </p>
             <div data-aos="zoom-in">
