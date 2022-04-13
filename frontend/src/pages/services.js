@@ -14,13 +14,13 @@ export const Services = () => {
           <h2 className="title">Price List</h2>
           <div className="interior">
             <p>Manichiură ojă semi | 120 lei || 1h 30 min</p>
-            <p>Pedichiură ojă semi | 150 lei || 1h 30 min</p>
-            <p>Întreținere gel | 150 lei || 2h</p>
-            <p>Construcție gel | 210 lei || 3h</p>
-            <p>Curațare manichiură | 80 lei || 1h </p>
-            <p>Curațare pedichiură | 90 lei || 1h </p>
+            <p>Pedichiură ojă semi | 150 lei || 1h 15 min</p>
+            <p>Întreținere gel | 150 lei || 1h 30 min</p>
+            <p>Construcție gel | 210 lei || 2h 30 min</p>
+            <p>Curațare manichiură | 80 lei || 40 min </p>
+            <p>Curațare pedichiură | 90 lei || 40 min </p>
             <p>Întreținere gel cu schimbare de arhitectură | 180 lei || 2h 30 min </p>
-            <p>Construcție Slim | 250 lei || 3h 30 min </p>
+            <p>Construcție Slim | 250 lei || 3h </p>
             <p>Întreținere Slim | 200 lei || 2h 30 min </p>
             <div data-aos="zoom-in">
               <a href="tel:+40787400999" className="services-btn">
