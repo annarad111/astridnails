@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/react/css/main.8cefcbd8.css",
+    "main.css": "/static/react/css/main.63f07f47.css",
     "main.js": "/static/react/js/main.ac4b4af1.js",
     "media/video5.mp4": "/static/react/media/video5.78afa03b6962873ec549.mp4",
     "media/video1.mp4": "/static/react/media/video1.d3766787f3e66eb83fe5.mp4",
@@ -29,11 +29,11 @@
     "media/nailsastrid2.jpeg": "/static/react/media/nailsastrid2.2d80aed66768b73f2b78.jpeg",
     "media/services3.jpeg": "/static/react/media/services3.5b087220e16a5a22f439.jpeg",
     "../../templates/index.html": "/static/react/../../templates/index.html",
-    "main.8cefcbd8.css.map": "/static/react/css/main.8cefcbd8.css.map",
+    "main.63f07f47.css.map": "/static/react/css/main.63f07f47.css.map",
     "main.ac4b4af1.js.map": "/static/react/js/main.ac4b4af1.js.map"
   },
   "entrypoints": [
-    "css/main.8cefcbd8.css",
+    "css/main.63f07f47.css",
     "js/main.ac4b4af1.js"
   ]
 }
