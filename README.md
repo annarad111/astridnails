@@ -2,13 +2,16 @@
 <h3 align="center">Project Description: <h3/>
   
   <div>
-  <p>:heart: It is a web application made for a client working in the beauty industry.</p>
+  <p>:heart: It is a web application made for a client working in the beauty industry and it is mobile responsive.</p>
   <p>:orange_heart: It has 5 pages: homepage, services, about, contact, gallery </p>
   <p>:yellow_heart:The home page contains a slider video, there is a wapp floating icon for contacting via wapp, call buttons. </p>
   <p>:green_heart: The services page contains all the services the client has to offer with prices and time of execution. </p>
   <p>:blue_heart: The about page contains pictures and a story about the client.</p>
   <p>:purple_heart: The contact page contains google maps with the location and the contact details of the client.</p>
   <p>:white_heart: The gallery page contains two sections, one with pictures and one with videos that the client has made.</p>
+    <p align="center">
+    <a href="http://www.nails-by-astrid.com/" target="_blank" rel="noreferrer">You can check it out here !</a>
+    </p>
   </div>
   
   
